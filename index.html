@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>相册网站首页</title>
+  <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+  <script src="Scripts/index.js"></script>
+  <link href="Styles/index.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <!--页面主体部分-->
+    <header>
+      <a id="btn_login">登录</a>
+      <a id="btn_regist" href="https://codepen.io/qhmx/pen/KBJqaX" target="_blank">注册</a>
+    </header>
+    <!--页面主体部分-->
+    <div id="main">
+      <div id="roll">
+        <!--轮播的图片-->
+        <ul class="roll_img">
+          <li class="imgList"><img src="http://img0.imgtn.bdimg.com/it/u=1486826859,4031998705&fm=200&gp=0.jpg"></li>
+          <li class="imgList"><img src="https://iadmat.nosdn.127.net/ad.bid.material_b04b12638e794e99b3b01957cb4fa313?imageView&thumbnail=980x350&quality=100"></li>
+          <li class="imgList"><img src="http://img4.imgtn.bdimg.com/it/u=112479501,2396302543&fm=200&gp=0.jpg"></li>
+          <li class="imgList"><img src="http://img0.imgtn.bdimg.com/it/u=995565151,344804915&fm=200&gp=0.jpg"></li>
+          <li class="imgList"><img src="http://img5.imgtn.bdimg.com/it/u=2253808516,3295168793&fm=200&gp=0.jpg"></li>
+        </ul>
+        <!--轮播的按钮-->
+        <ul class="roll_button">
+          <li><a class="hover" href="javascript:void(0);">●</a></li>
+            <li><a href="javascript:void(0);">●</a></li>
+            <li><a href="javascript:void(0);">●</a></li>
+            <li><a href="javascript:void(0);">●</a></li>
+            <li><a href="javascript:void(0);">●</a></li>
+        </ul>
+      </div>
+      <!--用户注册登录部分-->
+      <div id="login">
+        <div>
+          <p><span>请使用账号登录</span></p>
+          <p><input type="text" id="account" value="账号"></p>
+          <p><input type="text" id="password" value="密码"></p>
+          <span class="warning"></span>
+          <p><button>登录</button><a href="https://codepen.io/qhmx/pen/KBJqaX" target="_blank">去注册</p>
+        </div>
+      </div>
+      <div class="content">
+        <div id="upload" class="item">
+          <h2>
+            <span></span>
+            <a>上传</a>
+          </h2>
+          <p class="info">超大容量，超高清支持，每月高达3GB照片上传，单张照片大小支持高达10MB
+          </p>
+          <div class="icons"></div>
+        </div>
+        <div id="show" class="item">
+          
+          <h2>
+            <span></span>
+            <a>展示</a>
+          </h2>
+          <p class="info">通过个性主页，时间轴，相册，地图等方式秀出你的影像生活，和朋友们保持联系</p>
+          <div class="icons"></div>
+        </div>
+        <div id="share" class="item">
+          <h2>
+            <span></span>
+            <a>分享</a>
+          </h2>
+          <p class="info">分享你的故事，将照片分享到新浪、腾讯、微博等网站</p>
+          <div class="icons"></div>
+        </div>
+      </div>
+      <!--相册集-->
+      <div class="album">
+        <div class="left">
+          <div id="line-one">
+            <img class="album_item" src="http://photo.yupoo.com/pigfly8848_s/GTAZZmgZ/square.jpg">
+          </div>
+          <div id="line_two">
+            <img class="album_item" src="http://photo.yupoo.com/aaaalex/B0yCTeOD/square.jpg">
+            <img class="album_item" src="http://photo.yupoo.com/aaaalex/B0yCQ9D1/square.jpg">
+            <img class="album_item" src="http://photo.yupoo.com/aaaalex/B0yCHsNd/square.jpg">
+           </div>
+        </div>
+        <div class="right">
+          <p>每张照片的背后都有一个故事，它们可能关于亲情，关于友情，也可能关于爱情，它们可能是你熟悉的故乡，也可能是你熟悉的地方，它们可能带给你的是欢乐，也可能带给你的是感动</p>
+        </div>
+        <div id="line_three" class="clr">
+          <img class="album_item" src="http://photo.yupoo.com/vibius/GkRSowXr/square.jpg">
+          <img class="album_item" src="http://photo.yupoo.com/libin62/Gk9h5eDk/square.jpg">
+          <img class="album_item" src="http://photo.yupoo.com/zxls35a/Gknzjpsy/square.jpg">
+          <img class="album_item" src="http://photo.yupoo.com/vickisun/GkQV9FRG/square.jpg">
+          <img class="album_item" src="http://photo.yupoo.com/ifsunrise/GkBj8NMj/square.jpg">
+        </div>
+        <div id="line-four">
+          <img class="album_item" src="http://img.hb.aicdn.com/6a2a095166fa6a1e59ad7ac5faf4107ea62f0e8c745e1-xRr4gC_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/51d6d1b631414fab496e7d3f929e7dd4c3c440a36c49e-KapdcS_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/b65144c37d69e7af38ea724acdc0ccead50c309023e85-HtSLfK_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/7f040ceafa5f4e1c8122340e8c0e7eb1d0115f26ab6d-psg8Fk_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/56e54e8a3de85e5d00b50072b3232c2fb71db1d116cd1-XahZ4c_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/2fea651c33c669ea48419f6f633bf16892b9717e955d-l25RNj_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/50cfa65ac81b5a19532f8d87c6b1e8d790282626b944-JEswaR_fw658">
+        </div>
+        <div id="line-five">
+          <img class="album_item" src="http://img.hb.aicdn.com/e4f70a4471438adb838f57b10a3ad864d72fd1d51504b-eYXRXV_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/1fa74843e4edbd626a6314afd3f286a3c8e378b9f575-rOo6Ns_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/e08a6e3154dc8f744b8a6e7384e30c41aaf3e6bd23b25-U6BdGn_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/98a6bebdb6fadc74379d1139e81b3d0e93b08c826a31b-g2v5Pk_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/ecaa105a379138bc0d4b32c955aa88ef8b516eee16a66-xN9X6y_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/a17c948ee7240f1d5bf3b610ddc096966aa3e9d018991-tABAhN_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/3e59c7d7e61312786f72cbb6b81307df2e423b571bd89-pxZ35V_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/bc6d9454b522c0b5b2a45e7837209a88fa2f089eced0-c8OIHg_fw658">
+          <img class="album_item" src="http://img.hb.aicdn.com/fae7f2ea20441bde4cd4211ac0ce00a6efe465c0cfb5-QD718A_fw658">
+        </div>
+      </div>
+    </div>
+
+ </body>
+</html>

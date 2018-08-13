@@ -1,0 +1,105 @@
+/*初始化css代码*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea
+th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+table{border-collpase:collpase;border-spacing:0;}
+.clr{clear:both;}
+/*页面头部样式*/
+header{
+  height:25px;
+  border-bottom:5px solid #eee;
+  margin-bottom:10px;
+  box-shadow:0 0 5px rgba(0,0,0,.1);
+}
+#btn_login{border:none;height:20px;line-height:30px;color:blue;position:absolute;left:770px;cursor:pointer;}
+#btn_regist{border:none;height:20px;line-height:30px;color:blue;position:absolute;left:820px;cursor:pointer;}
+/*页面主体样式*/
+#main{width:780px;height:600px;margin:0 auto;}
+/*滚动图片部分*/
+#roll{width:560px;height:300px;background:#ff4;float:left;}
+#roll ul.roll_img{position:absolute;top:40px;}
+#roll ul.roll_img li{float:left;list-style:none;}
+#roll ul.roll_img li img{width:560px;height:300px;poaition:absolute;top:40px;}
+.imgList {
+		width: 560px;
+		height: 300px;
+		position: absolute;/*绝对定位*/
+		left: 0px;
+		top: 0px;
+	}
+
+	ul.roll_button {
+		height: 20px;
+		position: absolute;
+   left:270px;
+		top:260px;
+		bottom: 20px;
+		z-index: 3;
+		display: inline-block; /*行内块级元素*/
+	}
+	ul.roll_button li {
+		list-style-type: none;
+		width:20px;
+		height:10px;
+		float: left;
+		margin: 0px 5px;
+	}
+	ul.roll_button li a{
+		text-decoration: none;
+		font-size: 30px;
+		color: #787c82;/*未选中状态颜色*/
+	}
+
+	ul.roll_button li .hover{
+		color:white;/*设置选中状态为白色*/
+	}
+/*登录部分*/
+#login{width:220px;height:300px;background:#1c9fe5;float:left;position:relative;}
+#login div{position:absolute;top:50px;left:20px;}
+#login p {color:white;margin-bottom:10px;}
+#login input{color:lightgray;}
+#login button {width:100px;height:24px;text-align:center;line-height:12px;margin-top:25px;}
+#login a{color:white;font-size:12px;margin-left:25px;}
+.warning{color:red;font-size:12px;position:absolute;}
+/*内容部分*/
+.content{height:170px;clear:both;border-bottom:1px dashed gray;}
+.item{
+  width:240px;
+  height:150px;
+  margin-right:15px;
+  float:left;
+}
+#share{margin-right:-15px;}
+#show{padding:0px 15px;border-left:1px solid gray;border-right:1px solid gray;}
+div.content h2{font-size:25px;font-family:"微软雅黑";weight:bold;cursor:pointer;line-height:25px;opacity:0.7;}
+div.content div{cursor:pointer;}
+div.content .info{
+  font-family:"微软雅黑";
+  font-size:13px;
+  opacity:0.7;
+}
+
+div#upload span{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-100px -3px;display:inline-block;width:50px;height:50px;opacity:0.7;}
+div#upload .icons{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-35px -60px;display:inline-block;width:250px;height:40px;margin-top:10px;}
+div#show span{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-45px 0px;display:inline-block;width:50px;height:50px;opacity:0.7;}
+div#show .icons{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-35px -140px;display:inline-block;width:250px;height:40px;margin-top:10px;}
+div#share span{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-2px -2px;display:inline-block;width:40px;height:50px;opacity:0.7;}
+div#share .icons{background:url(http://www.yupoo.com/img/index/sprite.png);background-position:-25px -220px;display:inline-block;width:250px;height:40px;margin-top:10px;}
+/*相册集*/
+div.album{
+  height:440px;
+  border-bottom:1px dashed gray;
+  clear:both;
+}
+/*相册集小图片样式*/
+.album_item{
+  width:73px;
+  height:73px;
+  margin:5px;
+}
+.left{float:left;padding:0px 15px 0px 0px;}
+.right p{line-height:30px;font-family:"微软雅黑";font-size:14px;padding:20px;}

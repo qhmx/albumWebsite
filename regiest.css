@@ -1,0 +1,47 @@
+body{margin:30px;background-color:#E9E9E9;}
+/*背景样式*/
+.wall{
+}
+div.polaroid
+{
+  width:254px;
+	 padding:10px 10px 20px 10px;
+	 border:1px solid #BFBFBF;
+	 box-shadow:2px 2px 3px #aaaaaa;	  
+}
+div.polaroid img{width:240px;height:213px;}
+div.rotate_left
+{
+  float:left;
+	 -ms-transform:rotate(7deg);
+	 -moz-transform:rotate(7deg); /* Firefox */
+  -webkit-transform:rotate(7deg); /* Safari and Chrome */
+  -o-transform:rotate(7deg); /* Opera */
+	transform:rotate(7deg);
+}
+div.rotate_right
+{
+  float:left;
+	 -ms-transform:rotate(-8deg);
+	 -moz-transform:rotate(-8deg); /* Firefox */
+  -webkit-transform:rotate(-8deg); /* Safari and Chrome */
+  -o-transform:rotate(-8deg); /* Opera */
+	transform:rotate(-8deg);
+}
+/*注册样式*/
+.regiest{
+  position:absolute;
+  top:70px;
+  left:600px;
+  width:420px;
+  height:400px;
+}
+.welcome{font-size:20px;}
+#btn_regiest{
+  width:100px;
+  height:30px;
+  background:#ffcc66;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
